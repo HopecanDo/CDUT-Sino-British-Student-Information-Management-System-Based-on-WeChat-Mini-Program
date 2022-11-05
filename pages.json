@@ -1,17 +1,58 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}],
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/communication/communication",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userInfo/userInfo",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "CDUT Sino-British",
+		"navigationBarBackgroundColor": "#00FA9A",
+		"backgroundColor": "#00FA9A",
 		"app-plus": {
 			"background": "#efeff4"
 		}
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "Home",
+				"iconPath": "static/tab/homepage.png",
+				"selectedIconPath": "static/tab/homepage_fill.png"
+			},
+			{
+				"pagePath": "pages/communication/communication",
+				"text": "Communication Area",
+				"iconPath": "static/tab/schedule.png",
+				"selectedIconPath": "static/tab/schedule_fill.png"
+			},
+			{
+				"pagePath": "pages/userInfo/userInfo",
+				"text": "User",
+				"iconPath": "static/tab/user.png",
+				"selectedIconPath": "static/tab/user_fill.png"
+			}
+		]
 	}
 }
