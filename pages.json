@@ -3,7 +3,10 @@
             "path" : "pages/home/home",
             "style" :                                                                                    
             {
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+				
+	
             }
             
         }
@@ -19,6 +22,34 @@
             "path" : "pages/userInfo/userInfo",
             "style" :                                                                                    
             {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "User"
+            }
+            
+        }
+        ,{
+            "path" : "pages/schedule/schedule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Schedule",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/map/map",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Map",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "About",
                 "enablePullDownRefresh": false
             }
             

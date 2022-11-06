@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HopecanDo/CDUT-Sino-British-Student-Information-Management-System-Based-on-WeChat-Mini-Program.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HopecanDo/CDUT-Sino-British-Student-Information-Management-System-Based-on-WeChat-Mini-Program/issues"
+  },
+  "homepage": "https://github.com/HopecanDo/CDUT-Sino-British-Student-Information-Management-System-Based-on-WeChat-Mini-Program#readme",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
